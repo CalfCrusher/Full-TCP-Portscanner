@@ -73,7 +73,7 @@ def main():
                       ,"   ##    /                                                                                                           
     """
 
-    parser = optparse.OptionParser('./portscanner.py –H <host> -P <ports>\n')
+    parser = optparse.OptionParser('./portscanner.py –H <host> -p <ports>\n')
     parser.add_option('-H', dest='host', type='string', help='set target host')
     parser.add_option('-p', dest='port', type='string', help='set target ports separated by commas')
     (options, args) = parser.parse_args()
