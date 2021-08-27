@@ -65,7 +65,7 @@ def main():
                                      ._ o o
                                    \_`-)|_
                                 ,""       \ 
-                              ,"  ## |   ಠ ಠ.        Full TCP fast Multithreading Port scanner
+                              ,"  ## |   ಠ ಠ.        A fast full TCP Multithreading Port scanner
                             ," ##   ,-\__    `.      developed by calfcrusher@inventati.org
                           ,"       /     `--._;)     example: ./portscanner.py –H localhost -P 21,80,443
                         ,"     ## /
