@@ -1,2 +1,2 @@
 # Full-TCP-Portscanner
-A very simple Full TCP fast Multithreading Port Scanner
+A very simple but fast Full-TCP Multithreading Port Scanner
