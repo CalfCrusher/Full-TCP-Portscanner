@@ -53,7 +53,7 @@ def portscan(targethost, targetports):
 def main():
     """Tool usage"""
 
-    print """\
+    print """
     
                                                                                                                         
 ,------.        ,--.,--.,--------. ,-----.,------.     ,------.                 ,--.                                
