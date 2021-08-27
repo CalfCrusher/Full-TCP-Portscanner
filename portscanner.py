@@ -18,9 +18,10 @@ def connect(targethost, targetports):
         banner = c.recv(1024)
         # Prior printing an output we grabs a hold of the lock
         screenLock.acquire()
-        print '[+] %d/TCP open | ' % targetports + str(banner).strip('\n')
+        print '[+] %d/TCP open |' % targetports + str(banner).strip('\n')
         c.close()
     except:
+        screenLock.acquire()
         print '[-] %d/TCP closed' % targetports
 
 
@@ -65,7 +66,7 @@ def main():
                                      ._ o o
                                    \_`-)|_
                                 ,""       \ 
-                              ,"  ## |   ಠ ಠ.        A fast full TCP Multithreading Port scanner
+                              ,"  ## |   ಠ ಠ.        Full TCP fast Multithreading Port scanner
                             ," ##   ,-\__    `.      developed by calfcrusher@inventati.org
                           ,"       /     `--._;)     example: ./portscanner.py –H localhost -P 21,80,443
                         ,"     ## /
