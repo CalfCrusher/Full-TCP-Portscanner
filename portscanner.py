@@ -15,7 +15,7 @@ def connect(targethost, targetports):
     try:
         c = socket(AF_INET, SOCK_STREAM)
         c.connect((targethost, targetports))
-        banner = c.recv(1024)
+        banner = c.recv()
         # Prior printing an output we grabs a hold of the lock
         screenLock.acquire()
         print '[+] %d/TCP open |' % targetports + str(banner).strip('\n')
