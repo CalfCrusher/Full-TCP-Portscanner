@@ -1,4 +1,6 @@
 # coding=utf-8
+# developed by calfcrusher@inventati.org
+
 import optparse
 import socket
 
