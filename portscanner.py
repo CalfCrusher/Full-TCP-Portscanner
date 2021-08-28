@@ -1,5 +1,5 @@
 # coding=utf-8
-# developed by calfcrusher@inventati.org
+# Author: calfcrusher@inventati.org
 
 import optparse
 import socket
